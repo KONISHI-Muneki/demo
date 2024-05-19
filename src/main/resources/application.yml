@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: org.hsqldb.jdbcDriver
+    url: jdbc:hsqldb:mem:test
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
